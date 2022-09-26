@@ -8,10 +8,10 @@ function Calcular(){
     res.innerHTML = 'Preencha os valores'
     if(valor.length.value == 0 || valor == 0){
         alert('Preencha os dados corretamente para verificar os valores')
-    }else if (valor < 500 ){
+    }else if (valor <= 500 ){
         window.alert(`Você não tem direito a saque aniversário`)
     }if (valor > 500 && valor < 1000){
-       res.innerHTML = (`Você receberá o valor de R$${(valor*0.4 + 50).toFixed(2)} Reais`)
+       res.innerHTML = (`Você receberá o valor de R$  ${(valor*0.4 + 50).toFixed(2)} Reais`)
     }if(valor > 1000.01 && valor <= 5000){
       res.innerHTML = (`Você receberá o valor de R$ ${(valor*0.3 + 150).toFixed(2)} Reais`)
     }if (valor > 5000.01 && valor <= 10000.00 ){
