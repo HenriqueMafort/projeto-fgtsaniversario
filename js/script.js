@@ -4,13 +4,7 @@ function Calcular(){
     var percentual = Number(0.2)
     var  newfgts = valor * percentual
 
-
-
-    if (valor > 0 ){
-        res.innerHTML = newfgts 
-    }
-    
-    /*valor.innerHTML = ''
+    valor.innerHTML = ''
     res.innerHTML = 'Preencha os valores'
     if(valor.length.value == 0 || valor == 0){
         alert('Preencha os dados corretamente para verificar os valores')
@@ -28,7 +22,7 @@ function Calcular(){
        res.innerHTML = (`Você receberá o valor de ${(valor * 0.1 + 1900).toFixed(2)} Reais`)
     } if(valor > 20000.01){
         res.innerHTML = `Você receberá o valor de R$${valor * 0.05 + 2900}`
-    }*/
+    }
     
 }
 function Reset(){
