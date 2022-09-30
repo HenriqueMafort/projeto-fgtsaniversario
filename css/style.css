@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -61,6 +64,7 @@ input#calcular, input#resetar{
     display: inline-block;
     margin-right: -12px;
     margin-right: 5px;
+
 }
 input#resetar{
     border-radius: 10px;
@@ -83,4 +87,10 @@ input#resetar{
     height: 20%;
     margin: auto;
     padding-top: 10px;
+}
+@media (max-width: 635px){
+    #calcular{
+        display: block;
+        text-align: center;
+    }
 }
